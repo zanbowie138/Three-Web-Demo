@@ -1,0 +1,22 @@
+---
+import Layout from '../layouts/Layout.astro';
+import WebGLCanvas from '../three/WebGLCanvas.astro';
+---
+
+<Layout title="Three JS Demo">
+	<WebGLCanvas />
+	<main>
+		<div id="directions">
+			<a href="../">Home</a>
+			<h3>Controls: </h3>
+			<p>Mouse over to blow</p>
+		</div>
+	</main>
+</Layout>
+
+<style>
+	#directions {
+		margin: 50px;
+		color: white;
+	}
+</style>
